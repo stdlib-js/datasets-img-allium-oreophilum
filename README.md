@@ -61,6 +61,11 @@ Image of Karl Blossfeldt's gelatin silver print [_Allium ostrowskianum_][@blossf
 ## Usage
 
 ```javascript
+import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-allium-oreophilum@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-img-allium-oreophilum/tags). For example,
+
+```javascript
 import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-allium-oreophilum@v0.1.1-deno/mod.js';
 ```
 
@@ -86,7 +91,7 @@ var img = image();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-allium-oreophilum@v0.1.1-deno/mod.js';
+import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-allium-oreophilum@deno/mod.js';
 
 var img = image();
 console.log( img );
