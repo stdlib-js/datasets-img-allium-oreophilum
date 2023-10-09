@@ -61,7 +61,7 @@ Image of Karl Blossfeldt's gelatin silver print [_Allium ostrowskianum_][@blossf
 ## Usage
 
 ```javascript
-import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-allium-oreophilum@deno/mod.js';
+import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-allium-oreophilum@v0.1.1-deno/mod.js';
 ```
 
 #### image()
@@ -86,7 +86,7 @@ var img = image();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-allium-oreophilum@deno/mod.js';
+import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-allium-oreophilum@v0.1.1-deno/mod.js';
 
 var img = image();
 console.log( img );
